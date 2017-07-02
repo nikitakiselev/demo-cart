@@ -1,5 +1,7 @@
 # Simple demo shopping cart
 
+[![Build Status](https://travis-ci.org/nikitakiselev/demo-cart.svg?branch=master)](https://travis-ci.org/nikitakiselev/demo-cart)
+
 Simple shopping cart, developed for demo purposes.
 
 ## Usage Examples
