@@ -23,7 +23,7 @@ class PersentDiscountCoupon implements DiscountCoupon
     }
 
     /**
-     * Get coupon discount amount
+     * Get coupon discount amount.
      *
      * @param Cart $cart
      *
@@ -35,7 +35,7 @@ class PersentDiscountCoupon implements DiscountCoupon
     }
 
     /**
-     * Get the coupon number
+     * Get the coupon number.
      *
      * @return mixed
      */

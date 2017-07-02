@@ -5,7 +5,7 @@ namespace Nikitakiselev\DemoCart\Storage;
 interface CartStorage
 {
     /**
-     * Store a data
+     * Store a data.
      *
      * @param string $key
      * @param array $data
@@ -15,7 +15,7 @@ interface CartStorage
     public function store(string $key, array $data);
 
     /**
-     * Get the data by key
+     * Get the data by key.
      *
      * @param string $key
      *
@@ -24,7 +24,7 @@ interface CartStorage
     public function get(string $key): array;
 
     /**
-     * Forget data
+     * Forget data.
      *
      * @param string $key
      *
