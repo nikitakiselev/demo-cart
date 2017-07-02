@@ -58,7 +58,7 @@ class Cart
     }
 
     /**
-     * Add new item to the cart
+     * Add new item to the cart.
      *
      * @param CartItem $item
      *
@@ -86,7 +86,7 @@ class Cart
     }
 
     /**
-     * Check for existing item with id in the cart
+     * Check for existing item with id in the cart.
      *
      * @param string $id
      *
@@ -98,7 +98,7 @@ class Cart
     }
 
     /**
-     * Remove item from the cart
+     * Remove item from the cart.
      *
      * @param $id
      *
@@ -106,7 +106,7 @@ class Cart
      */
     public function removeItem($id)
     {
-        if (!$this->has($id)) {
+        if (! $this->has($id)) {
             throw new CartItemNotFoundException("The item with id: {$id} not found in the cart");
         }
 
@@ -114,7 +114,7 @@ class Cart
     }
 
     /**
-     * Clear shopping cart
+     * Clear shopping cart.
      */
     public function clear()
     {
@@ -141,7 +141,7 @@ class Cart
     }
 
     /**
-     * Add new discount coupon
+     * Add new discount coupon.
      *
      * @param DiscountCoupon $coupon
      *
@@ -163,7 +163,7 @@ class Cart
     }
 
     /**
-     * Get all coupons in the cart
+     * Get all coupons in the cart.
      *
      * @return array
      */
@@ -173,7 +173,7 @@ class Cart
     }
 
     /**
-     * Load cart data from storage
+     * Load cart data from storage.
      *
      * @return bool
      */
@@ -190,7 +190,7 @@ class Cart
     }
 
     /**
-     * Save cart data to storage
+     * Save cart data to storage.
      *
      * @return mixed
      */
@@ -218,7 +218,7 @@ class Cart
     }
 
     /**
-     * Get total discount amount
+     * Get total discount amount.
      *
      * @return float
      */
@@ -235,7 +235,7 @@ class Cart
     }
 
     /**
-     * Get unique cart id
+     * Get unique cart id.
      *
      * @return string
      */
@@ -245,7 +245,7 @@ class Cart
     }
 
     /**
-     * Get all items quantity total
+     * Get all items quantity total.
      *
      * @return int|mixed
      */

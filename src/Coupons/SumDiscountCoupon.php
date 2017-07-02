@@ -22,7 +22,7 @@ class SumDiscountCoupon implements DiscountCoupon
     }
 
     /**
-     * Get coupon discount amount
+     * Get coupon discount amount.
      *
      * @return float
      */
@@ -32,7 +32,7 @@ class SumDiscountCoupon implements DiscountCoupon
     }
 
     /**
-     * Get the coupon number
+     * Get the coupon number.
      *
      * @return mixed
      */
