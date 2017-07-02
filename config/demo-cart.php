@@ -2,7 +2,7 @@
 
 return [
 
-    /**
+    /*
      * Cart storage
      */
     'storage' => 'database',

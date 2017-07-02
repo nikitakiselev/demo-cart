@@ -38,7 +38,7 @@ class CartItem
     }
 
     /**
-     * Get unique cart item identificator
+     * Get unique cart item identificator.
      *
      * @return string
      */

@@ -24,7 +24,7 @@ class DatabaseStorageDriver implements CartStorage
     {
         if ($cart = $this->cart->find($key)) {
             return $cart->update([
-                'data' => serialize($data)
+                'data' => serialize($data),
             ]);
         }
 
